@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <button class="nightmode" id="theme-toggle" onclick="toggleTheme()"> 🌙 </button>
+            <div class="section">
+                <a href="#aboutshow" id="aboutNavLink" onclick="toggleAbout(event)">ABOUT </a>
+                <a href="#myskills"> SKILLS </a>
+                <a href="https://drive.google.com/drive/folders/1Ifpvcp7TmXj313XFvj-iDaqJ4FHnPcg_" target="_blank"> CERTIFICATES</a>
+                <a href="#contacts" id="contactNavLink" onclick="toggleContact(event)"> CONTACTS</a>
+
+            </div>
+
+        </nav>
+    </header><br><br><br>
+
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <span class="greeting-badge">HELLO 👋 </span><br>
+            <h1>I am <br><span class="highlight">Mohd Mujahid</span></h1>
+            <p class="subtitle">BCA Student & Aspiring cybersecurity expert</p>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/heymujahid_77/" target="_blank"><img class="instagram"
+                    src="https://static.vecteezy.com/system/resources/previews/009/673/727/original/glossy-instagram-3d-render-icon-free-png.png">
+            </a> <br>
+            <a href="https://github.com/Ghost-7-7" target="_blank"><img class="github"
+                    src="https://th.bing.com/th/id/OIP.Lwbgu4eSpSz4gKe-F_k58gHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+            </a> <br>
+            <a href="https://www.linkedin.com/in/mohd-mujahid-487b31363?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"><img class="linkedin"
+                    src=https://static.vecteezy.com/system/resources/previews/023/986/970/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png></a>
+
+
+
+        </div>
+    </section><br><br><br><br><br>
+
+    <div class="aboutme" id="aboutshow" onclick="toggleAbout(event)" ;>
+        <h1 align="center">ABOUT ME</h1><br><br>
+        <p align="center">
+            Hello! I’m <span class="highlight-text"> Mohd Mujahid </span>, a first-year BCA student at ACN Institute
+            of Higher Education in Aligarh, Uttar
+            Pradesh. I am driven by a relentless desire to learn, grow, and master the technology that powers our
+            digital world.<br>
+            While my ultimate ambition is to become the world’s <span class="highlight-text">most skilled
+                cybersecurity expert</span>, I believe true
+            security starts with deep understanding. Before learning how to defend systems, I am dedicated to
+            mastering how they are built from the ground up.<br>
+            This portfolio is my first major project built using <span class="highlight-text"> HTML, CSS, and
+                JavaScript</span>. Every day, I am
+            constantly learning new skills, refining my codebase, and polishing my technical expertise. I don't just
+            write code—I analyze it, secure it, and engineer it for the future.
+
+        </p>
+    </div><br><br><br><br>
+
+    <div class="skills" id="myskills">
+        <h1 align="center" class="skillheading">MY SKILLS </h1><br><br><br>
+        <ul class="box" align="center">
+            <li>HTML</li>
+
+
+            <li>C</li>
+
+            <li>PUBLIC SPEAKING</li>
+            <li>LEADERSHIP</li>
+            <li>MANAGEMENT & COMMUNICATION </li>
+
+
+        </ul>
+    </div><br><br><br>
+
+
+
+
+    <div class="contacts" id="contacts">
+        <div class="mycontacts"><br><br>
+            <p>
+                I am eager to connect with develepor ,cybersecurity expert <br>
+                I beleive in learning by building projects If you are ready to help me start a journey <br>
+                Lets connect and learn together Build together.
+            </p>
+
+        </div><br><br>
+        <section class="contact-box" id="formshow" onclick="toggleContact(event)">
+
+            <form action="https://formspree.io/f/xoevgrzz" method="post">
+                <fieldset>
+                    <legend>lets connect!!</legend>
+                    <input type="text" name="name" placeholder="NAME!!" required><br><br>
+                    <input type="tel" name="tel" placeholder="MOBILE NUMBER" ><br><br>
+                    <input type="email" name="email" placeholder="EMAIL"><br><br>
+                    <textarea rows="10" cols="35" name="message" placeholder="MESSAGE!!" required></textarea><br><br>
+
+                    <input type="submit" name="submit" value="Button">
+                </fieldset>
+            </form>
+        </section>
+
+
+
+        </header><br><br>
+
+        <div class="footer">
+            <hr>
+            <footer>
+                <p> &copy | 2026 | MOHD MUJAHID | ALL RIGHTS RESERVED </p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
