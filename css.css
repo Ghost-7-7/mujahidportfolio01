@@ -32,16 +32,28 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-
-
-    align-items: center;
+  align-items: center;
     padding: 15px 20px;
     box-sizing: border-box;
 
 
 }
-
+@media(max-width:768px){
+    .navbar{
+        flex-wrap:wrap;
+        justify-content: center;
+        padding:10px
+    }
+    .nav-link{
+        display:flex;
+        flex-wrap: wrap;
+        gap:12px;
+        justify-content:center;
+    }
+    .nav-link a{
+        font-size:14px;
+    }
+}
 
 
 
